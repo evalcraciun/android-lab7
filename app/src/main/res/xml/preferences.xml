@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:key="user_cat" android:title="User Settings">
+        <EditTextPreference
+            android:defaultValue="Craciun Stefan"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="User:"
+            android:summary="Craciun Stefan"
+            android:id="@+id/getName"/>
+    </PreferenceCategory>
+    <EditTextPreference
+        android:defaultValue="demo@gmail.com"
+        android:key="edit_text_preference_2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Email:"
+        android:summary="demo@gmail.com"
+        android:id="@+id/getEmail"/>
+
+    <SwitchPreference
+        android:key="test"
+        android:title="Test Switch"
+        android:defaultValue="false" />
+</PreferenceScreen>

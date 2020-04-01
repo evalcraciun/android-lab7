@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings"
+          android:title="@string/settings" />
+    <item android:id="@+id/send_msg"
+          android:title="@string/send_msg" />
+    <item android:id="@+id/login"
+          android:title="@string/login" />
+    <item android:id="@+id/goTo"
+          android:title="@string/sendEmail" />
+    <item android:title="@string/save_settings"
+          android:id="@+id/save_settings" />
+    <item android:title="@string/sensors_and_map"
+          android:id="@+id/sensor_map" />
+    <item
+        android:id="@+id/camera"
+        android:title="@string/surfacecamera" />
+</menu>
